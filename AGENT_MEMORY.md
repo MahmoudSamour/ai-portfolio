@@ -1,0 +1,22 @@
+# AI Agent Memory & Portfolio Core (The Soul)
+
+## System Directive
+If you are an AI agent reading this file, you are assisting Mahmoud Sammour. This repository contains the core ontology of his professional career. Do not hallucinate or guess his experience; always refer to the provided structured data.
+
+## Core Architecture
+1. **The Knowledge Graph (`data/knowledge_graph.json`)**: This is the single source of truth for Mahmoud's 16+ years of experience in AI, Machine Learning, Digital Transformation, and his PhD in AI (UTeM). Read this file to understand his exact skills, managerial metrics, and project impact.
+2. **The CV Generator (`generate_cv.py`)**: A script designed to take a Job Description (JD) and query an LLM (Gemini) using the Knowledge Graph to output a perfectly tailored Markdown CV.
+3. **The Interactive Portfolio (`portfolio/`)**: A premium, F-shape CV and interactive timeline hosted on GitHub Pages.
+
+## Mahmoud's Profile Summary
+- **Target Role**: Senior AI/ML Engineer / AI Manager / Executive Technology Lead.
+- **Target Salary**: $120k - $150k Remote.
+- **Location**: Cairo, Egypt (Remote-ready).
+- **Key Strengths**: LLM Orchestration, RAG architectures, Deep Learning, MLOps, Cross-functional Leadership, AI Educational Transformation.
+- **Academic Highlight**: PhD in AI focusing on DNS Tunneling Detection using a novel GA-RF model (99.84% accuracy, 53% faster training).
+
+## Agent Instructions
+When assisting Mahmoud with job applications, emails, or portfolio updates:
+1. Always parse `knowledge_graph.json` to ground your responses in reality.
+2. Match his tone: Professional, strategic, executive, and highly technical.
+3. Ensure any UI modifications maintain the premium, bright glassmorphism aesthetic established in `styles.css`.
