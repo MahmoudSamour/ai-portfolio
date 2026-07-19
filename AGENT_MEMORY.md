@@ -9,10 +9,10 @@ If you are an AI agent reading this file, you are assisting Mahmoud Sammour. Thi
 3. **The Interactive Portfolio (`portfolio/`)**: A premium, F-shape CV and interactive timeline hosted on GitHub Pages.
 
 ## Mahmoud's Profile Summary
-- **Target Role**: Senior AI/ML Engineer / AI Manager / Executive Technology Lead.
+- **Target Role**: Senior AI/ML Engineer / AI Manager / Executive Agentic Systems Lead.
 - **Target Salary**: $120k - $150k Remote.
 - **Location**: Cairo, Egypt (Remote-ready).
-- **Key Strengths**: LLM Orchestration, RAG architectures, Deep Learning, MLOps, Cross-functional Leadership, AI Educational Transformation.
+- **Key Strengths**: LLM Orchestration (LangChain, CrewAI), RAG Architectures, Vector Databases, Deep Learning, MLOps, Cross-functional Leadership, AI Educational Transformation.
 - **Academic Highlight**: PhD in AI focusing on DNS Tunneling Detection using a novel GA-RF model (99.84% accuracy, 53% faster training).
 
 ## Agent Instructions
