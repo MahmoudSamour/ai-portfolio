@@ -1,12 +1,12 @@
 :root {
-    /* Color Palette - Premium Dark Mode with Neon Accents */
-    --bg-color: #050505;
-    --text-main: #f0f0f0;
-    --text-muted: #a0a0a0;
-    --accent-primary: #00f0ff;
-    --accent-secondary: #7000ff;
-    --glass-bg: rgba(20, 20, 25, 0.6);
-    --glass-border: rgba(255, 255, 255, 0.08);
+    /* Color Palette - Premium Bright Mode */
+    --bg-color: #f4f6f9;
+    --text-main: #1a1a2e;
+    --text-muted: #5a5a7a;
+    --accent-primary: #0066cc;
+    --accent-secondary: #00b4d8;
+    --glass-bg: rgba(255, 255, 255, 0.7);
+    --glass-border: rgba(0, 0, 0, 0.08);
     
     /* Typography */
     --font-heading: 'Outfit', sans-serif;
@@ -34,8 +34,8 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: radial-gradient(circle at 15% 50%, rgba(112, 0, 255, 0.15), transparent 40%),
-                radial-gradient(circle at 85% 30%, rgba(0, 240, 255, 0.15), transparent 40%);
+    background: radial-gradient(circle at 15% 50%, rgba(0, 180, 216, 0.15), transparent 40%),
+                radial-gradient(circle at 85% 30%, rgba(0, 102, 204, 0.15), transparent 40%);
     z-index: -2;
     animation: pulse 15s ease-in-out infinite alternate;
 }
@@ -94,7 +94,7 @@ h2 {
 }
 
 #navbar.scrolled {
-    background: rgba(5, 5, 5, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--glass-border);
     padding: 1rem 0;
@@ -166,7 +166,25 @@ h2 {
     margin-bottom: 2rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    background: rgba(0, 240, 255, 0.05);
+    background: rgba(0, 102, 204, 0.08);
+}
+
+.profile-pic-container {
+    margin-bottom: 2rem;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--glass-bg);
+    box-shadow: 0 10px 30px rgba(0, 102, 204, 0.2);
+    transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
 }
 
 .hero-content p {
@@ -200,12 +218,12 @@ h2 {
     background: linear-gradient(45deg, var(--accent-secondary), var(--accent-primary));
     color: #fff;
     border: none;
-    box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 102, 204, 0.2);
 }
 
 .primary-btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 0 30px rgba(0, 240, 255, 0.5);
+    box-shadow: 0 15px 30px rgba(0, 102, 204, 0.3);
 }
 
 .secondary-btn {
@@ -231,8 +249,8 @@ h2 {
 }
 
 .glass-card {
-    background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
     border: 1px solid var(--glass-border);
     border-radius: 16px;
     padding: 2rem;
@@ -241,7 +259,8 @@ h2 {
 
 .glass-card:hover {
     transform: translateY(-5px);
-    border-color: rgba(0, 240, 255, 0.3);
+    border-color: rgba(0, 102, 204, 0.4);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 /* Layout */
@@ -285,7 +304,7 @@ section {
 }
 
 .stat-card {
-    background: rgba(255, 255, 255, 0.02);
+    background: rgba(255, 255, 255, 0.6);
     border: 1px solid var(--glass-border);
     border-radius: 12px;
     padding: 2rem;
@@ -392,12 +411,12 @@ section {
 }
 
 .tags span {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.05);
     border: 1px solid var(--glass-border);
     padding: 0.3rem 0.8rem;
     border-radius: 4px;
     font-size: 0.8rem;
-    color: #e0e0e0;
+    color: var(--text-muted);
 }
 
 /* Skills */
@@ -421,9 +440,9 @@ section {
 }
 
 .skill-tag {
-    background: rgba(112, 0, 255, 0.1);
-    border: 1px solid rgba(112, 0, 255, 0.3);
-    color: #fff;
+    background: rgba(0, 102, 204, 0.08);
+    border: 1px solid rgba(0, 102, 204, 0.2);
+    color: var(--text-main);
     padding: 0.5rem 1rem;
     border-radius: 50px;
     font-size: 0.9rem;
@@ -431,10 +450,10 @@ section {
 }
 
 .skill-tag:hover {
-    background: rgba(0, 240, 255, 0.15);
+    background: rgba(0, 102, 204, 0.15);
     border-color: var(--accent-primary);
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 240, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 102, 204, 0.15);
 }
 
 /* Footer / Contact */
