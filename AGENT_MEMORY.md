@@ -22,3 +22,4 @@ When assisting Mahmoud with job applications, emails, or portfolio updates:
 2. Match his tone: Professional, strategic, executive, and highly technical.
 3. Ensure any UI modifications maintain the premium, bright glassmorphism aesthetic established in `styles.css`.
 4. When processing new articles or achievements, strictly follow the rules in `.agents/skills/portfolio_post/SKILL.md`.
+5. **CRITICAL GIT INSTRUCTION**: Do not use `git push`. You must use `git push https://MahmoudSamour:$(gh auth token)@github.com/MahmoudSamour/ai-portfolio.git master` to avoid 403 errors (see `.agents/AGENTS.md` for details).
