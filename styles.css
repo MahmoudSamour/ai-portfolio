@@ -423,6 +423,23 @@ section {
     font-size: 0.95rem;
 }
 
+.badge-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.sub-item-badge {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent-primary);
+    box-shadow: 0 4px 10px rgba(0, 102, 204, 0.15);
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+}
+
 /* Location Badges & Regional Highlights */
 .location-badge {
     position: absolute;
